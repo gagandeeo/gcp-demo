@@ -47,8 +47,8 @@ name: Build and Deploy to Cloud APP ENGINE
 
 on:
   workflow_dispatch:
-  push:
-    branches: [ "main" ]
+  # push:
+  #   branches: [ "main" ]
 
 env:
   PROJECT_ID: fair-bearing-425913-e2 # TODO: update Google Cloud project id
