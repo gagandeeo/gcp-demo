@@ -52,7 +52,7 @@ on:
 env:
   PROJECT_ID: fair-bearing-425913-e2 # TODO: update Google Cloud project id
   GAR_LOCATION: us-central1 # TODO: update Artifact Registry location
-  SERVICE: hello # TODO: update Cloud Run service name
+  SERVICE: service1 # TODO: update Cloud Run service name
   REPO_NAME: hello
   IMAGE_NAME: fast-api-service
   REGION: us-central1  # TODO: update Cloud Run service region
