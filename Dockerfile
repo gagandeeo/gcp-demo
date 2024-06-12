@@ -8,4 +8,6 @@ RUN pip install --no-cache-dir -r ./requirements.txt
 
 COPY . .
 
-ENTRYPOINT [ "fastapi", "run", "main.py", "--port", "3000" ]
+EXPOSE 80
+
+ENTRYPOINT [ "fastapi", "run", "main.py", "--port", "80" ]
